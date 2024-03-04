@@ -1,0 +1,79 @@
+<div class="table-responsive">
+  <div class="table-wrapper">
+    <div class="table-title">
+      <div class="d-flex justify-content-between">
+        <div class="text-light">
+          <h2 class="text-light">Manage <b>Employees</b></h2>
+        </div>
+        <div>
+          <a
+            (click)="onCreate()"
+            class="btn btn-success"
+            data-toggle="modal"
+            ><i class="fa fa-user"></i> <span>&nbsp; Add New Employee</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>DOB</th>
+          <th>Salary</th>
+          <th>Status</th>
+          <th>Group</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let obj of employees; trackBy: trackByIndex">
+          <td>{{ obj.firstName }}</td>
+          <td>{{ obj.lastName }}</td>
+          <td>{{ obj.username }}</td>
+          <td>{{ obj.email }}</td>
+          <td>{{ obj.birthDate | date : "dd/MM/yyyy" }}</td>
+          <td>{{ obj.basicSalary | currency : "Rp" : "symbol" : "3.0" }}</td>
+          <td>{{ obj.status ? "Aktif" : "Non Aktif" }}</td>
+          <td>{{ obj.group }}</td>
+          <td>
+            <a class="edit" data-toggle="modal" style="margin-right: 14px" (click)="onDetail(obj)"
+              ><i
+                class="fa fa-eye"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Detail"
+              ></i
+            ></a>
+            <a class="text-danger" data-toggle="modal"
+              ><i class="fa fa-trash" data-toggle="tooltip" title="Delete"></i
+            ></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="d-flex justify-content-between p-2">
+      <ngb-pagination
+        [collectionSize]="collectionSize"
+        [(page)]="page"
+        [pageSize]="pageSize"
+        (pageChange)="refreshData()"
+      >
+      </ngb-pagination>
+
+      <select
+        class="form-select"
+        style="width: auto"
+        [(ngModel)]="pageSize"
+        (ngModelChange)="refreshData()"
+      >
+        <option [ngValue]="2">2 items per page</option>
+        <option [ngValue]="4">4 items per page</option>
+        <option [ngValue]="6">6 items per page</option>
+      </select>
+    </div>
+  </div>
+</div>

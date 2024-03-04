@@ -1,0 +1,61 @@
+<div style="padding:16px">
+  <div class="d-flex border-bottom mb-3 justify-content-between">
+    <div>
+      <h3>Employee Detail</h3>
+    </div>
+
+    <div>
+      <button
+        type="button"
+        class="btn btn-light float-right"
+        (click)="goBack()"
+      >
+        Back
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <h5>Firstname</h5>
+      <p>{{ employee?.firstName }}</p>
+    </div>
+    <div class="col-6">
+      <h5>Lastname</h5>
+      <p>{{ employee?.lastName }}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <h5>Username</h5>
+      <p>{{ employee?.username }}</p>
+    </div>
+    <div class="col-6">
+      <h5>Email</h5>
+      <p>{{ employee?.email }}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <h5>Date Of Birth</h5>
+      <p>{{ employee?.birthDate | date : "dd/MM/yyyy" }}</p>
+    </div>
+    <div class="col-6">
+      <h5>Salary</h5>
+      <p>{{ employee?.basicSalary | currency : "Rp" : "symbol" : "3.0" }}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <h5>Status</h5>
+      <p>{{ employee.status ? "Aktif" : "Non Aktif" }}</p>
+    </div>
+    <div class="col-6">
+      <h5>Group</h5>
+      <p>{{ employee?.group }}</p>
+    </div>
+  </div>
+</div>

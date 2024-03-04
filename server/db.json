@@ -1,0 +1,273 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    },
+    {
+      "id": 3,
+      "username": "staff",
+      "password": "staff"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "username": "Tirtayasa.Reichert",
+      "lastName": "Mandala",
+      "firstName": "Pangestu",
+      "email": "Pangestu_Mandala@yahoo.com",
+      "birthDate": "0006-06-26T05:36:43.830Z",
+      "status": false,
+      "group": "Music",
+      "description": "Feb 22nd 24",
+      "basicSalary": "5307330.23"
+    },
+    {
+      "id": 2,
+      "username": "Baktiono3",
+      "lastName": "Prasetyo",
+      "firstName": "Utama",
+      "email": "Utama_Prasetyo@gmail.co.id",
+      "birthDate": "0017-11-07T02:30:10.939Z",
+      "status": true,
+      "group": "Toys",
+      "description": "Feb 22nd 24",
+      "basicSalary": "5976663.66"
+    },
+    {
+      "id": 3,
+      "username": "Oman_Rosenbaum67",
+      "lastName": "Abiputra",
+      "firstName": "Laswi",
+      "email": "Laswi33@yahoo.co.id",
+      "birthDate": "0017-01-15T13:37:09.105Z",
+      "status": false,
+      "group": "Garden",
+      "description": "Feb 22nd 24",
+      "basicSalary": "13244956.95"
+    },
+    {
+      "id": 4,
+      "username": "Bambang59",
+      "lastName": "Puspita",
+      "firstName": "Rina",
+      "email": "Rina.Puspita@yahoo.co.id",
+      "birthDate": "0008-12-07T13:10:09.268Z",
+      "status": true,
+      "group": "Outdoors",
+      "description": "Feb 22nd 24",
+      "basicSalary": "6390956.01"
+    },
+    {
+      "id": 5,
+      "username": "Dono_Keeling",
+      "lastName": "Riyanti",
+      "firstName": "Ophelia",
+      "email": "Ophelia98@gmail.co.id",
+      "birthDate": "0017-05-09T05:49:44.940Z",
+      "status": false,
+      "group": "Music",
+      "description": "Feb 22nd 24",
+      "basicSalary": "6026151.11"
+    },
+    {
+      "id": 6,
+      "username": "Puspa94",
+      "lastName": "Febian",
+      "firstName": "Jumadi",
+      "email": "Jumadi.Febian@gmail.co.id",
+      "birthDate": "0006-06-10T16:47:36.583Z",
+      "status": true,
+      "group": "Sports",
+      "description": "Feb 22nd 24",
+      "basicSalary": "18373013.86"
+    },
+    {
+      "id": 7,
+      "username": "Eluh_Little76",
+      "lastName": "Ningrum",
+      "firstName": "Najwa",
+      "email": "Najwa.Ningrum43@yahoo.co.id",
+      "birthDate": "0000-04-16T08:32:16.597Z",
+      "status": true,
+      "group": "Electronics",
+      "description": "Feb 22nd 24",
+      "basicSalary": "13666731.66"
+    },
+    {
+      "id": 8,
+      "username": "Malik.Medhurst39",
+      "lastName": "Rachmawati",
+      "firstName": "Syahrini",
+      "email": "Syahrini_Rachmawati@gmail.com",
+      "birthDate": "0025-01-19T13:28:33.631Z",
+      "status": true,
+      "group": "Kids",
+      "description": "Feb 22nd 24",
+      "basicSalary": "18492210.65"
+    },
+    {
+      "id": 9,
+      "username": "Harjasa11",
+      "lastName": "Fernanda",
+      "firstName": "Jamalia",
+      "email": "Jamalia_Fernanda96@yahoo.co.id",
+      "birthDate": "0009-09-21T17:53:23.688Z",
+      "status": false,
+      "group": "Garden",
+      "description": "Feb 22nd 24",
+      "basicSalary": "11793637.20"
+    },
+    {
+      "id": 10,
+      "username": "Sakura12",
+      "lastName": "Handayani",
+      "firstName": "Laila",
+      "email": "Laila_Handayani@gmail.com",
+      "birthDate": "0005-06-26T19:48:22.538Z",
+      "status": true,
+      "group": "Garden",
+      "description": "Feb 22nd 24",
+      "basicSalary": "23409811.34"
+    },
+    {
+      "id": 11,
+      "username": "Cahyono76",
+      "lastName": "Wastuti",
+      "firstName": "Qori",
+      "email": "Qori49@yahoo.com",
+      "birthDate": "0019-07-01T23:11:31.402Z",
+      "status": false,
+      "group": "Tools",
+      "description": "Feb 22nd 24",
+      "basicSalary": "24032478.08"
+    },
+    {
+      "id": 12,
+      "username": "Fara60",
+      "lastName": "Andini",
+      "firstName": "Julia",
+      "email": "Julia.Andini@gmail.co.id",
+      "birthDate": "0014-12-03T00:12:24.313Z",
+      "status": true,
+      "group": "Games",
+      "description": "Feb 22nd 24",
+      "basicSalary": "8016752.05"
+    },
+    {
+      "id": 13,
+      "username": "Candrakanta.Jacobson5",
+      "lastName": "Rayhan",
+      "firstName": "Margana",
+      "email": "Margana.Rayhan83@yahoo.co.id",
+      "birthDate": "0022-02-14T01:04:17.899Z",
+      "status": false,
+      "group": "Tools",
+      "description": "Feb 22nd 24",
+      "basicSalary": "5975016.29"
+    },
+    {
+      "id": 14,
+      "username": "Endra.Boyle",
+      "lastName": "Kuswoyo",
+      "firstName": "Hari",
+      "email": "Hari_Kuswoyo70@gmail.com",
+      "birthDate": "0012-12-08T22:36:26.987Z",
+      "status": false,
+      "group": "Toys",
+      "description": "Feb 22nd 24",
+      "basicSalary": "16486691.11"
+    },
+    {
+      "id": 15,
+      "username": "Linda39",
+      "lastName": "Yolanda",
+      "firstName": "Titi",
+      "email": "Titi27@yahoo.com",
+      "birthDate": "0013-04-28T17:02:37.306Z",
+      "status": true,
+      "group": "Electronics",
+      "description": "Feb 22nd 24",
+      "basicSalary": "11316071.00"
+    },
+    {
+      "id": 16,
+      "username": "Murti.Farrell",
+      "lastName": "Setiawan",
+      "firstName": "Umay",
+      "email": "Umay_Setiawan@gmail.com",
+      "birthDate": "0014-04-17T17:09:29.540Z",
+      "status": true,
+      "group": "Movies",
+      "description": "Feb 22nd 24",
+      "basicSalary": "24361264.11"
+    },
+    {
+      "id": 17,
+      "username": "Gilang_OConner86",
+      "lastName": "Rajata",
+      "firstName": "Taufan",
+      "email": "Taufan_Rajata@gmail.com",
+      "birthDate": "0003-10-15T10:37:49.029Z",
+      "status": false,
+      "group": "Tools",
+      "description": "Feb 22nd 24",
+      "basicSalary": "23330402.70"
+    },
+    {
+      "id": 18,
+      "username": "Cici_Denesik",
+      "lastName": "Sihombing",
+      "firstName": "Virman",
+      "email": "Virman_Sihombing24@yahoo.co.id",
+      "birthDate": "0025-01-04T19:55:37.609Z",
+      "status": true,
+      "group": "Outdoors",
+      "description": "Feb 22nd 24",
+      "basicSalary": "18039236.64"
+    },
+    {
+      "id": 19,
+      "username": "Luluh.Bogisich",
+      "lastName": "Yuliarti",
+      "firstName": "Yessi",
+      "email": "Yessi.Yuliarti@yahoo.co.id",
+      "birthDate": "0000-06-30T12:31:26.026Z",
+      "status": true,
+      "group": "Games",
+      "description": "Feb 22nd 24",
+      "basicSalary": "6173695.14"
+    },
+    {
+      "id": 20,
+      "username": "Banawa73",
+      "lastName": "Pertiwi",
+      "firstName": "Gilda",
+      "email": "Gilda.Pertiwi54@gmail.com",
+      "birthDate": "0010-05-04T04:45:17.862Z",
+      "status": true,
+      "group": "Kids",
+      "description": "Feb 22nd 24",
+      "basicSalary": "12832721.49"
+    },
+    {
+      "firstName": "qazwsx",
+      "lastName": "qazwsx",
+      "username": "qazwsx",
+      "email": "qazwsx@gmail.com",
+      "birthDate": "2024-02-22T17:00:00.000Z",
+      "basicSalary": "12000000",
+      "status": "true",
+      "group": "Sports",
+      "description": "",
+      "id": 21
+    }
+  ]
+}
