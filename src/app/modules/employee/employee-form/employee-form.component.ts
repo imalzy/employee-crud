@@ -1,6 +1,11 @@
 import { Component, DestroyRef, inject } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {
+  FormControl,
+  FormGroup,
+  FormsModule,
+  ReactiveFormsModule,
+} from '@angular/forms';
 import { Router } from '@angular/router';
 import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
 import { EmployeeService } from '../../../shared/services/employee.service';
@@ -48,5 +53,11 @@ export class EmployeeFormComponent {
           replaceUrl: true,
         });
       });
+  }
+
+  onCancel(): void {
+    this.router.navigate(['/employee'], {
+      replaceUrl: true,
+    });
   }
 }
