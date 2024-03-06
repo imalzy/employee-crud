@@ -1,0 +1,17 @@
+<div class="container mt-5 bg">
+  <div class="row d-flex justify-content-center">
+      <div class="card px-5 py-5" id="form1">
+        <form class="text-light" [formGroup]="form">
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input formControlName="username" type="email" class="form-control" id="username" aria-describedby="username">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" formControlName="password" class="form-control" id="password">
+          </div>
+          <button type="submit" class="btn btn-primary" (click)="onSubmit()">Login</button>
+        </form>
+      </div>
+  </div>
+</div>

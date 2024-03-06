@@ -1,6 +1,7 @@
-<div class="header-blue">
+<div [ngClass]="!hiddenHeader ? 'header-blue' : ''">
   <nav
     class="navbar navbar-expand-lg navbar-dark navbar-expand-md navigation-clean-search"
+    *ngIf="!hiddenHeader"
   >
     <div class="container">
       <a class="navbar-brand" href="#">CV Maza</a
